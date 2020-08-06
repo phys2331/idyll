@@ -10,6 +10,8 @@ If you are just getting started with the project, it can be daunting to figure o
 
 To work with Idyll's codebase, you must have [Lerna](https://github.com/lerna/lerna) and [yarn](https://yarnpkg.com/en/docs/install) installed.
 
+If you are only updating documentation, you are not working with the codebase and therefore do not need Lerna or yarn. For instructions on editing the documentation, please see the [documentation's associated README](./packages/idyll-docs/README.md).
+
 ### Repository Overview
 
 This repository is structured as a [monorepo](https://github.com/babel/babel/blob/master/doc/design/monorepo.md), which means it contains several independent modules in one git repository. Each folder in the `packages` directory acts as an independent JavaScript module, and is published and versioned independently on npm.
